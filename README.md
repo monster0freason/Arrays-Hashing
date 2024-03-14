@@ -14,29 +14,26 @@
 9. [Longest Consecutive Sequence (Medium)](#longest-consecutive-sequence-medium)
 
 ## Contains Duplicate (Easy)
-Description of the problem and solution link.
+![routes](images/Contains Duplicate.png)
 
 ## Valid Anagram (Easy)
-Description of the problem and solution link.
+![routes](images/Valid Anagram.png)
 
 ## Two Sum (Easy)
-Description of the problem and solution link.
+![routes](images/Two Sum.png)
 
 ## Group Anagrams (Medium)
-Description of the problem and solution link.
+![routes](images/Group Anagrams.png)
 
 ## Top K Frequent Elements (Medium)
-Description of the problem and solution link.
+![routes](images/Top K Frequent Elements.png)
 
 ## Product of Array Except Self (Medium)
-Description of the problem and solution link.
+![routes](images/Product of Array Except Self.png)
 
 ## Valid Sudoku (Medium)
-Description of the problem and solution link.
-
-## Encode and Decode Strings (Medium)
-Description of the problem and solution link.
+![routes](images/Valid Sudoku.png)
 
 ## Longest Consecutive Sequence (Medium)
-Description of the problem and solution link.
+![routes](images/Longest Consecutive Sequence.png)
 
