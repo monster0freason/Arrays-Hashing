@@ -16,6 +16,73 @@
 ## Contains Duplicate (Easy)
 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 ![Contains Duplicate](images/Contains%20Duplicate.png)
+# Intuition
+My initial thoughts on solving this problem are to efficiently check for duplicate elements in the given array. The use of a HashSet comes to mind as it allows for constant-time average complexity for both insertion and lookup operations, which is crucial for optimal duplicate detection.
+
+# Approach
+1. Start with an empty HashSet to store unique elements.
+2. Iterate through the array.
+3. Check if the current element is already in the HashSet.
+   - If yes, return True indicating the presence of a duplicate.
+   - If not, proceed to the next step.
+4. Add the current element to the HashSet.
+5. If the loop completes without finding duplicates, return False.
+
+# Complexity
+- Time complexity:
+The time complexity is O(n) , where n is the length of the input array. This is because, in the worst case, we iterate through the entire array once. Checking for membership in a HashSet has an average time complexity of O(1).
+
+- Space complexity:
+The space complexity is also O(n) . The HashSet may store all elements in the array in the worst case, leading to linear space usage.
+
+# Code(Python)
+ ```python
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        # Create an empty HashSet to store unique elements
+        hashSet = set()
+        
+        # Iterate through the array
+        for n in nums:
+            # Check if the element is already in the HashSet
+            if n in hashSet:
+                # If yes, return True indicating the presence of a duplicate
+                return True
+            
+            # Add the element to the HashSet
+            hashSet.add(n)
+        
+        # If the loop completes without finding duplicates, return False
+        return False
+```
+
+# Code(C++)
+```cpp
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        // Create an unordered_set to store unique elements
+        unordered_set<int> hashSet;
+        
+        // Iterate through the vector
+        for(int n : nums){
+            // Check if the element is already in the unordered_set
+            if(hashSet.count(n) > 0){
+                // If yes, return true indicating the presence of a duplicate
+                return true;
+            }
+            
+            // Add the element to the unordered_set
+            hashSet.insert(n);
+        }
+        
+        // If the loop completes without finding duplicates, return false
+        return false;
+    }
+};
+```
+
+
 
 ## Valid Anagram (Easy)
 [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
