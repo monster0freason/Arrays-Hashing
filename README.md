@@ -14,26 +14,25 @@
 9. [Longest Consecutive Sequence (Medium)](#longest-consecutive-sequence-medium)
 
 ## Contains Duplicate (Easy)
-![routes](images/Contains Duplicate.png)
+![Contains Duplicate](images/Contains%20Duplicate.png)
 
 ## Valid Anagram (Easy)
-![routes](images/Valid Anagram.png)
+![Valid Anagram](images/Valid%20Anagram.png)
 
 ## Two Sum (Easy)
-![routes](images/Two Sum.png)
+![Two Sum](images/Two%20Sum.png)
 
 ## Group Anagrams (Medium)
-![routes](images/Group Anagrams.png)
+![Group Anagrams](images/Group%20Anagrams.png)
 
 ## Top K Frequent Elements (Medium)
-![routes](images/Top K Frequent Elements.png)
+![Top K Frequent Elements](images/Top%20K%20Frequent%20Elements.png)
 
 ## Product of Array Except Self (Medium)
-![routes](images/Product of Array Except Self.png)
+![Product of Array Except Self](images/Product%20of%20Array%20Except%20Self.png)
 
 ## Valid Sudoku (Medium)
-![routes](images/Valid Sudoku.png)
+![Valid Sudoku](images/Valid%20Sudoku.png)
 
 ## Longest Consecutive Sequence (Medium)
-![routes](images/Longest Consecutive Sequence.png)
-
+![Longest Consecutive Sequence](images/Longest%20Consecutive%20Sequence.png)
