@@ -16,7 +16,7 @@
 ## Contains Duplicate (Easy)
 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 ![Contains Duplicate](images/Contains%20Duplicate.png)
-```
+
 # Intuition
 My initial thoughts on solving this problem are to efficiently check for duplicate elements in the given array. The use of a HashSet comes to mind as it allows for constant-time average complexity for both insertion and lookup operations, which is crucial for optimal duplicate detection.
 
@@ -82,13 +82,13 @@ public:
     }
 };
 ```
-```
+
 
 
 ## Valid Anagram (Easy)
 [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 ![Valid Anagram](images/Valid%20Anagram.png)
-2.1 Valid Anagram(EASY)
+## Approach 1:Use hash maps to store frequencies, decrementing for one string and checking for another.
 
 # Intuition
 My initial thoughts on solving this problem are to compare the frequency of characters in two strings to determine if one is an anagram of the other.
