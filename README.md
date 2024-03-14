@@ -3,7 +3,7 @@
 
 
 ## 0️⃣Table of Contents
-1. [Contains Duplicate (Easy)](#contains-duplicate-easy)
+1. [Contains Duplicate (Easy)](#1️⃣contains-duplicate-easy)
 2. [Valid Anagram (Easy)](#valid-anagram-easy)
 3. [Two Sum (Easy)](#two-sum-easy)
 4. [Group Anagrams (Medium)](#group-anagrams-medium)
@@ -13,7 +13,7 @@
 8. [Encode and Decode Strings (Medium)](#encode-and-decode-strings-medium)
 9. [Longest Consecutive Sequence (Medium)](#longest-consecutive-sequence-medium)
 
-## Contains Duplicate (Easy)
+## 1️⃣Contains Duplicate (Easy)
 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 ![Contains Duplicate](images/Contains%20Duplicate.png)
 
